@@ -1,0 +1,64 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+body{
+    font-family: 'Roboto', sans-serif !important;
+    height: 100vh;
+    color: #3a3e42 !important;
+}
+.appForm .appFormLeft h1{
+    font-size: 35px;
+}
+.appForm .appFormLeft input:focus{
+    border-color: #ced4de;
+}
+.appForm .appFormLeft input::placeholder{
+    font-size: 15px;
+}
+.appForm .appFormLeft i{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.appForm .appFormLeft a{
+    color: #3a3e42;
+}
+.appForm .appFormLeft button{
+    background: linear-gradient(45deg, #8d334c, #cf6964);
+    border-radius: 50px;
+}
+.appForm .appFormLeft p span{
+     color: #007bff;
+     cursor: pointer;
+}
+.appForm .appFormRight{
+    background-image: url(/assets/img/bg.jpeg);
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+}
+.appForm .appFormRight::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg, #8d334c, #cf6964);
+    opacity: 0.5;
+}
+.appForm .appFormRight h2, p{
+    z-index: 1;
+}
+.appForm .appFormRight h2::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}

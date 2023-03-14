@@ -1,0 +1,168 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --primary-color: rgb(1,6,10); 
+    --another-primary-color: rgb(2, 13, 24) ;
+    --text-color: #abb7c4;
+    --text-hover-color: #dcf836;
+    
+    --header-height: 109px;
+    --header-with-search-height: 69px;
+    --navbar-height: calc(var(--header-height) - var(--header-with-search-height));
+}
+*{
+    box-sizing: inherit;
+}
+ /* 100% = 16px */
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Cuprum', sans-serif;
+}
+body{
+    background-color: var(--another-primary-color);
+}
+
+ul{
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a{
+    padding: 0;
+    text-decoration: none;
+}
+
+span{
+    display: inline-block;
+}
+
+.m-l-r-5{
+    margin-left: -5px !important;
+    margin-right: -5px !important;
+}
+
+.col.p-l-r-5{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+
+.m-b-30{
+    margin-bottom: 30px;
+}
+/* ================= SCROLLBAR================= */
+.scrollbar::-webkit-scrollbar{
+    width: 4px;
+}
+
+.scrollbar-webkit-scrollbar-track{
+    background-color: var(--primary-color);
+}
+
+.scrollbar::-webkit-scrollbar-thumb{
+    background-color: #2d2d2d;
+    border-radius: 30px;
+}
+
+
+/* ===================== TITLE CỦA TỪNG CAROUSEL NHƯ LÀ ĐỘNG ĐỀ CỬ CHO BẠN==================== */
+.title{
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 28px;
+    display: inline-block;
+}
+
+/* ==================== ẢNH CỦA CÁC MOVIE ITEM NẰM DỌC================== */
+
+.movies-item-img-vertical{
+    padding-top: 133.333%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+    position: relative;
+}
+
+.movies-item-img-vertical::before{
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    inset: 0;
+    transition: all ease-in-out .2s;
+    opacity: 0;
+}
+
+/* ================== MOVIE ITEM NẰM DỌC ==============*/
+
+.movies-eng-title{
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2.4rem;
+    text-transform: capitalize;
+    margin: 0 0 10px 0 ;
+    display: inline-block;
+    width: 100%;
+}
+
+.movies-title{
+    color: var(--white-color);
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin: 10px 0 0 0;
+    text-transform: capitalize;
+    transition: all ease-in-out .2s;
+}
+
+.movies-title,
+.movies-eng-title{
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+}
+
+.movies-item-vertical{
+    position: relative;
+}
+
+
+.movies-item-vertical .movie-chapter-vertical{
+    position: absolute;
+    width: 100px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 8px;
+    color: var(--white-color) ;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    padding: 5px 7px;
+    margin: 5px;
+    text-transform: capitalize;
+}
+
+
+.movies-item-vertical:hover .movies-item-img-vertical::before{
+    background-color: rgba(0, 0, 0, .3);
+    opacity: 1;
+}
+
+.movies-item-vertical:hover .movies-title{
+    color: var(--text-hover-color);
+}
+
+.movies-item-vertical:hover .icon--play{
+    opacity: 1;
+}
+
+
