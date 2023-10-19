@@ -1,0 +1,25 @@
+.element{
+	width: 100px;
+	height: 100px;
+	border:2px solid green;
+}
+.element1{
+	position: absolute;
+	right: 0;
+}
+.element2{
+	position: absolute;
+	left: 100px;
+	top: 50px;
+}
+.element3{
+	position: absolute;
+	top: 300px;
+}
+
+.element4{
+	background: red;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
