@@ -1,0 +1,210 @@
+** element là <img>
+
+** Tags (thẻ) là <p></p>
+
+** học lists, link và images, HTML Boilerplate
+
+** Để mở một tài liệu ở parent frame thông qua thẻ <a> chúng ta cần : 
+	<a href="url" target="_parent"></a>
+
+** Thẻ <section> để xác định một section trong một trang. (ex: <tag>)
+
+** Thuộc tính "cite" được sử dụng để xác định nguồn gốc của tài liệu hoặc nội dung mô tả cho phần trích dẫn bên trong thẻ <blockquote>.   
+
+** Thẻ HTML <pre> thường được sử dụng để hiển thị đúng định dạng của đoạn văn bản trong file HTML ra trang web.
+
+** các thẻ HTML thuộc dạng inline : 
+   - <span>: Thẻ được sử dụng để nhóm các phần tử và áp dụng CSS hoặc JavaScript cho chúng.
+   - <a>: Thẻ được sử dụng để tạo liên kết đến các trang web, tài liệu, hoặc vị trí khác trên cùng một trang.
+   - <strong>: Thẻ được sử dụng để làm nổi bật văn bản, thường làm cho văn bản trở nên đậm.
+   - <em>: Thẻ được sử dụng để làm nổi bật văn bản, thường làm cho văn bản trở nên nghiêng.
+   - <img>: Thẻ được sử dụng để chèn hình ảnh vào trang web.
+   - <input>: Thẻ được sử dụng để tạo các ô nhập liệu như ô văn bản, ô chọn, hoặc nút bấm.
+   - <br>: Thẻ được sử dụng để tạo ra một dòng mới.
+   - <abbr>: Thẻ được sử dụng để định nghĩa một từ viết tắt.
+
+** Thuộc tính "dir" định rõ hướng hiển thị của văn bản, có thể là "ltr" (left-to-right) cho từ trái qua phải hoặc "rtl" (right-to-left) cho từ phải qua trái, phụ thuộc vào ngôn ngữ hoặc hướng văn bản. Thuộc tính "lang" được sử dụng để xác định ngôn ngữ của văn bản, cung cấp thông tin về ngôn ngữ của nội dung cho trình duyệt và các công cụ khác để xử lý và hiển thị đúng.
+
+** <q> : sử dụng cho các đoạn trích dẫn ngắn?
+
+** Mỗi ô (cell) trong bảng được thể hiện bằng một thẻ `<td>` (table data cell) trong HTML. Thẻ `<td>` được sử dụng để tạo các ô chứa dữ liệu trong một hàng của bảng HTML.
+
+** Để mở một liên kết trong một tab hoặc cửa sổ trình duyệt mới trong HTML, bạn cần sử dụng thuộc tính `target` với giá trị là `_blank`. Điều này cho biết rằng liên kết sẽ mở trong một tab hoặc cửa sổ mới khi được nhấp vào.
+   - Ví dụ:
+	<a href="https://www.example.com" target="_blank">Mở liên kết trong tab mới</a>
+   - Trong ví dụ này, khi người dùng nhấp vào liên kết, trang web tại địa chỉ 	`https://www.example.com` sẽ được mở trong một tab mới của trình duyệt.
+
+** <p>: Được sử dụng để định dạng văn bản thành các đoạn.
+
+** <div>: Thường được sử dụng để nhóm các phần tử HTML lại với nhau và tạo các khu vực (blocks) trên trang web.
+
+** <span>: Thường được sử dụng để áp dụng CSS hoặc định dạng văn bản nhỏ gọn bên trong một phần tử.
+
+** <blockquote>: Thường được sử dụng để trích dẫn văn bản được lấy từ một nguồn khác.
+
+** Thẻ HTML được sử dụng để tạo ra một danh sách mô tả là thẻ <dl> (description list).
+
+** thuộc tính colspan trong thẻ <td> được dùng để xác định số cột mà một ô (cell) sẽ mở rộng ra thêm.
+
+** Thuộc tính rowspan trong thẻ <td> được dùng để xác định số hàng mà một ô (cell) sẽ mở rộng đến.
+
+** Để tạo một drop-down list trong HTML, bạn có thể sử dụng thẻ <select> cùng với các thẻ <option> để định nghĩa các lựa chọn trong danh sách.
+   - Trong đó:
+	+ Thẻ <select> định nghĩa drop-down list.
+	+ Mỗi thẻ <option> trong đó đại diện cho một lựa chọn trong danh sách. Thuộc tính "value" của mỗi option định nghĩa giá trị tương ứng của lựa chọn.
+	+ Bạn có thể thêm các thuộc tính khác như "selected" để chỉ định một lựa chọn 	mặc định, hoặc "disabled" để vô hiệu hóa một lựa chọn.
+
+** Thuộc tính 'alt' trong thẻ img được sử dụng để đưa ra một văn bản thay thể cho hình ảnh bị lỗi
+
+** <textarea>: Thẻ này được sử dụng để tạo ra một vùng văn bản dài có thể nhập liệu.
+
+** <select>: Thẻ này được sử dụng để tạo ra một drop-down list cho người dùng chọn từ một danh sách các tùy chọn.
+
+** <form>: Thẻ này được sử dụng để tạo ra một biểu mẫu, bao gồm các phần tử nhập liệu và các phần tử khác cho việc gửi dữ liệu tới máy chủ.
+
+** Thẻ tiêu đề: <h1>, <h2>, ..., <h6>
+** Thẻ đoạn văn bản: <p>
+** Thẻ danh sách: <ul>, <ol>, <li>
+** Thẻ liên kết: <a>
+** Thẻ hình ảnh: <img>
+** Thẻ bảng: <table>, <tr>, <td>, <th>
+** Thẻ biểu mẫu: <form>, <input>, <textarea>, <select>
+** Thẻ định nghĩa: <dl>, <dt>, <dd>
+** Thẻ meta: <meta>
+** Và nhiều thẻ khác như <span>, <div>, <footer>, <header>, <section>, <nav>, <aside>, <article>, ..
+
+** các thẻ HTML thuộc dạng block :
+   - <div>: Thẻ này thường được sử dụng để nhóm các phần tử HTML lại với nhau và tạo các khu vực (blocks) trên trang web.
+   - <p>: Thẻ này được sử dụng để định dạng văn bản thành các đoạn.
+   - <header>, <footer>, <section>, <article>, <nav>, <aside>: Các thẻ này được sử dụng để định dạng và nhóm các phần tử cho các phần của trang web như tiêu đề, 	chân trang, phần nội dung, thanh điều hướng, v.v.
+   - <ul>, <ol>, <li>: Các thẻ này được sử dụng để tạo danh sách không có thứ tự (unordered list) hoặc danh sách có thứ tự (ordered list) cùng với các mục danh 	sách.
+   - <table>, <tr>, <td>, <th>: Các thẻ này được sử dụng để tạo bảng và các thành phần bên trong bảng như hàng, ô dữ liệu và ô tiêu đề.
+   - <form>, <input>, <textarea>, <button>: Các thẻ này được sử dụng để tạo biểu mẫu và các phần tử nhập liệu như ô văn bản, ô chọn, nút bấm, v.v.
+
+** Cổng mặc định khi chạy webpack-dev-server là cổng 8080. khi bạn chạy lệnh "webpack-dev-server" sau để khởi động webpack-dev-server. Nó sẽ bắt đầu server trên http://localhost:8080/, với tệp bundle được phục vụ từ đường dẫn mặc định.
+
+** Để chèn một đoạn âm thanh với thanh điều khiển vào trang web của bạn bằng thẻ `<audio>`, bạn cần sử dụng các thuộc tính và thẻ con sau:
+   - src : để chỉ định đường dẫn của tệp âm thanh.
+   - controls : để hiển thị thanh điều khiển cho người dùng.
+   - Sử dụng thẻ con `<source>` để chỉ định các nguồn âm thanh có thể sử dụng, với thuộc tính `src` để chỉ định đường dẫn và `type` để xác định loại tệp âm thanh.
+   - ví dụ minh họa:
+	<audio controls>
+  		<source src="audiofile.mp3" type="audio/mpeg">
+  		<source src="audiofile.ogg" type="audio/ogg">
+  		Your browser does not support the audio element.
+	</audio>
+   - Trong ví dụ này:
+	+ controls`: Hiển thị thanh điều khiển cho người dùng.
+	+ `<source src="audiofile.mp3" type="audio/mpeg">`: Chỉ định một nguồn âm thanh dưới dạng tệp MP3.
+	+ `<source src="audiofile.ogg" type="audio/ogg">`: Chỉ định một nguồn âm thanh dưới dạng tệp OGG.
+	+ Nếu trình duyệt không hỗ trợ thẻ `<audio>` hoặc không hỗ trợ định dạng tệp âm thanh, văn bản "Your browser does not support the audio element." sẽ được hiển thị.
+
+** Thuộc tính step dùng để xác định bước nhảy giữa các lượt bấm tăng hoặc giảm trong một thẻ <input> số?
+   - Ví dụ:
+		<input type="number" step="0.5">
+** Ví dụ :
+	<form action="/submit-form" method="post">
+  		<!-- Các phần tử biểu mẫu ở đây -->
+	/form>
+   - Thuộc tính của phần tử <form> được sử dụng để chỉ định cách dữ liệu biểu mẫu Web do người dùng nhập sẽ được gửi đến máy chủ Web là thuộc tính "action"
+   - Thuộc tính "action" xác định URL hoặc đường dẫn của tài nguyên trên máy chủ mà dữ liệu biểu mẫu sẽ được gửi đến khi người dùng nhấn nút gửi (submit).
+
+** Để có thể tải lên một bức ảnh cùng với form, bạn cần sử dụng thuộc tính "enctype" với giá trị là "multipart/form-data". Điều này cho phép dữ liệu biểu mẫu kèm theo tệp đính kèm.:
+   - Ví dụ :
+	 <form action="upload" method="post" enctype="multipart/form-data"> 
+	     <!-- Phần tử input cho việc chọn tệp ảnh -->
+	     <input type="file" name="image">
+  
+	     <!-- Các phần tử biểu mẫu khác có thể có -->
+  
+	     <!-- Nút submit để gửi form -->
+	     <button type="submit">Gửi</button>
+	 </form>
+
+** Câu lệnh HTML <h1 style="text-align: center;">Viblo Learning</h1> sẽ hiển thị tiêu đề "Viblo Learning" ở giữa trang, với chữ được căn giữa.
+
+** Trong thẻ <meta>, thuộc tính "http-equiv" được sử dụng để chỉ định một HTTP header được gửi cùng với trang web. Dưới đây là các giá trị đúng mà thuộc tính "http-equiv" có thể có:
+   - "content-type": Xác định kiểu nội dung của trang web, chẳng hạn như "text/html; charset=utf-8" cho trang web HTML với bộ mã UTF-8.
+   - "refresh": Xác định thời gian và URL để tự động chuyển hướng lại hoặc làm mới trang. Ví dụ: "refresh" content="5;url=https://example.com" sẽ chuyển hướng sang https://example.com sau 5 giây.
+   - "content-security-policy": Xác định chính sách an ninh nội dung (Content Security Policy) cho trang web.
+   - "cache-control": Xác định cách trình duyệt và bộ nhớ cache trung gian nên lưu trữ nội dung của trang web.
+   - "expires": Xác định thời gian hết hạn cho tệp tin hoặc trang web.
+   -  Các giá trị khác của "http-equiv" có thể không phù hợp hoặc không hỗ trợ trên tất cả các trình duyệt và máy chủ web.
+
+** Thẻ HTML được sử dụng để định nghĩa tên của một danh sách mô tả nội dung là thẻ <legend>. Thẻ này thường được sử dụng bên trong thẻ <fieldset> để cung cấp một tiêu đề hoặc phụ đề cho danh sách.
+   - Ví dụ:
+	<fieldset>
+  		<legend>Thông tin cá nhân</legend>
+  		<!-- Các phần tử biểu mẫu ở đây -->
+	</fieldset>
+   - Trong ví dụ này, "Thông tin cá nhân" là tiêu đề của danh sách được định nghĩa bởi thẻ `<fieldset>`, và được hiển thị bằng thẻ `<legend>`.
+
+** tất cả các giá trị đúng mà thuộc tính "type" có thể có:
+   - "text": Tạo một ô nhập liệu văn bản đơn.
+   - "password": Tạo một ô nhập liệu dành cho mật khẩu.
+   - "checkbox": Tạo một ô kiểm (checkbox) để chọn hoặc bỏ chọn.
+   - "radio": Tạo một nút radio để chọn một trong số nhiều lựa chọn.
+   - "submit": Tạo một nút gửi để gửi biểu mẫu.
+   - "reset": Tạo một nút reset để xóa dữ liệu trong biểu mẫu.
+   - "button": Tạo một nút bình thường không có hành vi mặc định.
+   - "file": Tạo một ô nhập liệu cho người dùng chọn tệp tin từ máy tính của họ.
+   - "email": Tạo một ô nhập liệu để nhập địa chỉ email.
+   - "number": Tạo một ô nhập liệu số cho giá trị số.
+   - "date": Tạo một ô nhập liệu để nhập ngày.
+   - "color": Tạo một ô nhập liệu để chọn một màu sắc.
+   - "hidden": Tạo một ô nhập liệu ẩn không hiển thị trên trang.
+
+** <form>
+   - thuộc tính <form> : 
+	+ action="submit-form.php" : Đường dẫn đến script trên server sẽ xử lý dữ liệu được gửi từ form.
+	+ method="post" : Phương thức gửi dữ liệu, có thể là get (dữ liệu được gửi qua URL) hoặc post (dữ liệu được gửi một cách ẩn danh).
+
+** <label>...</label> : 
+   - thuộc tính <label> :
+	+  for="phone" : yêu cầu nhập số
+
+** <input> : 
+   - thuộc tính <input> :
+	+  type="..." : 
+	+  name="..." : 
+	+  pattern="Số điện thoại gồm 10 chữ số" :  để xác định rằng số điện thoại phải là 10 chữ số. 
+	+  title="..." : 
+	+  required : 
+
+** <textarea></textarea> : 
+   - thuộc tính <textarea> :
+	+ id="message"  : 
+	+ name="user_message" : 
+	+ required  : 
+
+** <button >...</button> : 
+   - thuộc tính <button> :
+	+ type="submit"  : 
+	+   : 
+	+   : 
+
+
+
+** 
+   - 
+	+ 
+	+ 
+	+ 
+
+** 
+   - 
+	+ 
+	+ 
+	+ 
+
+** 
+   - 
+	+ 
+	+ 
+	+ 
+
+** 
+   - 
+	+ 
+	+ 
+	+ 

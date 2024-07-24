@@ -1,0 +1,78 @@
+:root {
+  --font-color: #ffffff;
+}
+#head {
+  width: 100%;
+  overflow: auto;
+}
+
+.logo {
+  width: 20%;
+  background-color: aquamarine;
+  float: left;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.banner {
+  width: 80%;
+  background-color: aqua;
+  float: right;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+#head-link {
+  background-color: blue;
+  padding: 10px;
+  color: var(--font-color);
+}
+
+.content::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+#left,
+#content,
+#right {
+  width: 15%;
+  float: left;
+  box-sizing: border-box;
+  padding: 150px 30px;
+  background-color: antiquewhite;
+}
+
+#content {
+  width: 70%;
+  background-color: aliceblue;
+}
+
+#right {
+  background-color: wheat;
+}
+
+footer {
+  padding: 30px;
+  background-color: brown;
+  color: var(--font-color);
+}
+
+/* root là biến giử */
+:root {
+  /* biến total (toàn cục) */
+  --test-color: violet;
+}
+h1 {
+  /* --my-color ở dây là biến Local (cục bộ) chỉ dung trong thẻ h1 này thôi*/
+  --my-color: red;
+  color: var(--my-color);
+}
+h2 {
+  color: var(--test-color);
+}
+h3 {
+  color: var(--test-color);
+}
+<div class="flex-container">   <div style="order: 3">1</div>   <div style="order: 2">2</div>   <div style="order: 4">3</div>    <div style="order: 1">4</div> </div>
