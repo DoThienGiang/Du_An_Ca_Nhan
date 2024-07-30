@@ -13,6 +13,9 @@ Anon is a fully responsive ecommerce website, maximum compatiblities in all mobi
 ![Anon Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
 ![Anon Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
 
+# Image
+![Shopping_Woman-Anon](https://github.com/user-attachments/assets/5a3325e7-3779-423c-9ce4-735d2bf75dbb)
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
